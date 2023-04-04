@@ -1,158 +1,78 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"loop": false,
-			"anim": "idle",
-			"fps": 24,
-			"name": "Mom Idle",
-			"indices": []
-		},
-		{
 			"offsets": [
-				250,
-				-23
+				467,
+				318
 			],
-			"loop": false,
 			"anim": "singLEFT",
 			"fps": 24,
-			"name": "Mom Left Pose",
+			"name": "RON_LEFT",
 			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				10,
-				-60
+				-67
 			],
-			"loop": false,
-			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Mom Pose Left",
-			"indices": []
-		},
-		{
-			"offsets": [
-				20,
-				-160
-			],
-			"loop": false,
 			"anim": "singDOWN",
 			"fps": 24,
-			"name": "MOM DOWN POSE",
+			"name": "RON_DOWN",
 			"indices": []
 		},
 		{
-			"offsets": [
-				14,
-				71
-			],
 			"loop": false,
+			"offsets": [
+				-6,
+				50
+			],
 			"anim": "singUP",
 			"fps": 24,
-			"name": "Mom Up Pose",
+			"name": "RON_UP",
 			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
-				0
+				116
 			],
-			"indices": [
-				10,
-				11,
-				12,
-				13
-			],
+			"anim": "idle",
 			"fps": 24,
-			"anim": "idle-loop",
-			"loop": true,
-			"name": "Mom Idle"
+			"name": "RON_IDLE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				250,
-				-23
-			],
-			"indices": [
-				6,
-				7,
-				8,
-				9
-			],
-			"fps": 24,
-			"anim": "singLEFT-loop",
-			"loop": true,
-			"name": "Mom Left Pose"
-		},
-		{
-			"offsets": [
-				14,
+				0,
 				71
 			],
-			"indices": [
-				11,
-				12,
-				13,
-				14
-			],
+			"anim": "singRIGHT",
 			"fps": 24,
-			"anim": "singUP-loop",
-			"loop": true,
-			"name": "Mom Up Pose"
-		},
-		{
-			"offsets": [
-				10,
-				-60
-			],
-			"indices": [
-				6,
-				7,
-				8,
-				9
-			],
-			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"loop": true,
-			"name": "Mom Pose Left"
-		},
-		{
-			"offsets": [
-				20,
-				-160
-			],
-			"indices": [
-				11,
-				12,
-				13,
-				14
-			],
-			"fps": 24,
-			"anim": "singDOWN-loop",
-			"loop": true,
-			"name": "MOM DOWN POSE"
+			"name": "RON_RIGHT",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/momCar",
 	"position": [
-		0,
-		0
+		60,
+		240
 	],
 	"healthicon": "mom",
 	"flip_x": false,
 	"healthbar_colors": [
-		216,
-		85,
-		142
+		255,
+		235,
+		60
 	],
 	"camera_position": [
-		0,
-		0
+		-160,
+		-30
 	],
-	"sing_duration": 4,
+	"sing_duration": 6.1,
 	"scale": 1
 }
