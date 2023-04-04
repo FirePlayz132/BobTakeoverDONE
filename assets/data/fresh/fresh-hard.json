@@ -10981,9 +10981,9 @@
 			}
 		],
 		"player3": "gf",
-		"splashSkin": "nosplash",
-		"song": "fresh",
-		"arrowSkin": "bf",
+		"splashSkin": "noteSplashes",
+		"song": "Fresh",
+		"arrowSkin": "",
 		"validScore": true,
 		"stage": "stage",
 		"needsVoices": true,
