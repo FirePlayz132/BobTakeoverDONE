@@ -2,152 +2,77 @@
 	"animations": [
 		{
 			"offsets": [
-				3,
-				0
+				0,
+				122
 			],
 			"loop": false,
-			"anim": "idle",
 			"fps": 24,
-			"name": "monster idle",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-20,
-				94
-			],
-			"loop": false,
-			"anim": "singUP",
-			"fps": 24,
-			"name": "monster up note",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-30,
-				20
-			],
-			"loop": false,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Monster left note",
-			"indices": []
+			"indices": [],
+			"name": "RON_LEFT"
 		},
 		{
 			"offsets": [
-				-51,
-				30
+				215,
+				157
 			],
 			"loop": false,
-			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "Monster Right note",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-50,
-				-80
-			],
-			"loop": false,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "monster down",
-			"indices": []
+			"indices": [],
+			"name": "RON_DOWN"
 		},
 		{
 			"offsets": [
-				3,
-				0
+				-6,
+				50
 			],
-			"indices": [
-				12,
-				13,
-				14
-			],
+			"loop": false,
 			"fps": 24,
-			"anim": "idle-loop",
-			"loop": true,
-			"name": "monster idle"
-		},
-		{
-			"offsets": [
-				-30,
-				20
-			],
-			"indices": [
-				17,
-				18,
-				19
-			],
-			"fps": 24,
-			"anim": "singLEFT-loop",
-			"loop": true,
-			"name": "Monster left note"
+			"anim": "singUP",
+			"indices": [],
+			"name": "RON_UP"
 		},
 		{
 			"offsets": [
 				0,
-				0
+				116
 			],
-			"indices": [
-				21,
-				22,
-				23
-			],
+			"loop": false,
 			"fps": 24,
-			"anim": "singUP-loop",
-			"loop": true,
-			"name": "monster up note"
+			"anim": "idle",
+			"indices": [],
+			"name": "RON_IDLE"
 		},
 		{
 			"offsets": [
-				-51,
-				30
+				0,
+				71
 			],
-			"indices": [
-				12,
-				13,
-				14
-			],
+			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"loop": true,
-			"name": "Monster Right note"
-		},
-		{
-			"offsets": [
-				-50,
-				-80
-			],
-			"indices": [
-				27,
-				28,
-				29
-			],
-			"fps": 24,
-			"anim": "singDOWN-loop",
-			"loop": true,
-			"name": "monster down"
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "RON_RIGHT"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Monster_Assets",
 	"position": [
-		0,
-		100
+		60,
+		240
 	],
 	"healthicon": "monster",
 	"flip_x": false,
 	"healthbar_colors": [
-		243,
 		255,
-		110
+		235,
+		60
 	],
 	"camera_position": [
-		0,
-		0
+		-270,
+		-110
 	],
-	"sing_duration": 4,
+	"sing_duration": 6.1,
 	"scale": 1
 }
