@@ -2,140 +2,131 @@
 	"animations": [
 		{
 			"offsets": [
-				-9,
-				10
-			],
-			"loop": false,
-			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Dad Sing Note LEFT",
-			"indices": []
-		},
-		{
-			"offsets": [
 				0,
-				-30
+				21
 			],
 			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Dad Sing Note DOWN",
-			"indices": []
+			"indices": [],
+			"name": "bob_down"
 		},
 		{
 			"offsets": [
 				-6,
-				50
+				23
 			],
 			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "Dad Sing Note UP",
-			"indices": []
+			"indices": [],
+			"name": "bob_up"
 		},
 		{
 			"offsets": [
 				0,
-				27
+				22
 			],
 			"loop": false,
-			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "Dad Sing Note RIGHT",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Dad idle dance",
-			"indices": []
+			"indices": [],
+			"name": "bob_idle"
 		},
 		{
 			"offsets": [
 				0,
-				0
+				19
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "idle-loop",
-			"indices": [
-				10,
-				11,
-				12,
-				12
-			],
-			"name": "Dad idle dance"
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bob_right"
 		},
 		{
 			"offsets": [
 				-9,
-				10
+				17
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "singLEFT-loop",
-			"indices": [
-				12,
-				13,
-				14,
-				15
-			],
-			"name": "Dad Sing Note LEFT"
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bob_left"
 		},
 		{
 			"offsets": [
 				0,
-				27
+				0
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			],
-			"name": "Dad Sing Note RIGHT"
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "bobismad"
 		},
 		{
 			"offsets": [
-				-6,
-				50
+				0,
+				0
 			],
-			"loop": true,
+			"loop": false,
 			"fps": 24,
-			"anim": "singUP-loop",
-			"indices": [
-				56,
-				57,
-				58,
-				59
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "bobismad"
+		},
+		{
+			"offsets": [
+				0,
+				0
 			],
-			"name": "Dad Sing Note UP"
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "bobismad"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "bobismad"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "bobismad"
 		}
 	],
-	"no_antialiasing": false,
+	"no_antialiasing": true,
 	"image": "characters/DADDY_DEAREST",
 	"position": [
 		0,
-		0
+		310
 	],
 	"healthicon": "dad",
 	"flip_x": false,
 	"healthbar_colors": [
-		175,
-		102,
-		206
+		255,
+		255,
+		255
 	],
 	"camera_position": [
-		0,
-		0
+		-60,
+		-70
 	],
 	"sing_duration": 6.1,
 	"scale": 1
